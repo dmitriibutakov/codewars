@@ -23,5 +23,4 @@ function generateHashtag(str) {
         return ('#' + newArr.join('').replace(/ /g, ''))
     } else return false
 }
-
 console.log(generateHashtag('   Hello     world   '))
